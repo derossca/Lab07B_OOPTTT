@@ -1,5 +1,6 @@
 public class PlayerX implements Player {
-    public String getSymbol() {
+    @Override
+    public String getSymbol(){
         return "X";
     }
 }
